@@ -33,38 +33,10 @@ const HowToUsePage = (props) => {
         </div>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.content} style={{ paddingTop: '80px' }}>
-            <h3>Built By Matter.</h3>
+            <h3>SELIGER.STUDIO</h3>
             <div id="#builtBy" ref={builtRef}>
-              <p>
-                This theme is proudly brought to you by the team at{' '}
-                <Button target={true} href="https://matterdesign.com.au/">
-                  Matter Design & Digital
-                </Button>{' '}
-                (Matter.).
-              </p>
-              <p>
-                The Sydney theme is built for Netlify as an ecommerce theme
-                suitable for JAMStack archtitecture. This theme is free to use
-                through Netlify’s GitHub account, and can be used with any
-                ecommerce platform that support a headless architecture.
-              </p>
-              <p>
-                Matter. has pre-built connections to microservices available
-                through its JAMM.™ solution. JAMM.™ is a system built to run a
-                headless architecture. JAMM.™ can connect micro-services,
-                orchestrate data and publish websites to an edge network for
-                lighting fast performce. JAMM.™ creates a server-side rendered
-                website that is fast, stable and scalable for high traffic
-                events.
-              </p>
-              <Button target={true} href="https://jamm.matter.design/">
-                Read more about JAMM.™
-              </Button>
-              <img
-                alt={'JAMM Detail'}
-                src={toOptimizedImage('/how-to-use/jamm-sydney-1upd@2x.png')}
-                style={{ display: 'block', height: 'auto' }}
-              />
+              <p></p>
+              <p></p>
             </div>
             <h3>Best of Breed Tools</h3>
             <div id={'#tools'} ref={toolsRef}>
@@ -84,11 +56,7 @@ const HowToUsePage = (props) => {
                 faster than monolithic solutions giving you a competitive
                 advantage.
               </p>
-              <p>
-                Matter. has been innovating since 2003, and we have aligned with
-                companies that do it best. The following technologies are either
-                currently available or are on our roadmap for JAMM.™.
-              </p>
+              <p></p>
 
               <strong>Ecommerce:</strong>
               <ul>
@@ -162,10 +130,7 @@ const HowToUsePage = (props) => {
           </div>
         </Container>
         <div className={styles.imageContainer}>
-          <img
-            alt={'Best of Breed tools'}
-            src={toOptimizedImage('/how-to-use/logos@2x.png')}
-          ></img>
+          <img alt={'Best of Breed tools'} src={toOptimizedImage('')}></img>
         </div>
       </div>
     </Layout>

@@ -7,16 +7,17 @@ const Policy = (props) => {
       <div className={styles.section}>
         <h3>1. Lorem Ipsum</h3>
         <p>
-          Delaware limited liability company (The Sydney) collects personal
-          information that you voluntarily provide when applying or registering
-          for an account with The Upside or making a purchase on The Upside
-          website; www.theupside.com (the Website).
+          Delaware limited liability company (The Seliger.STUDIO) collects
+          personal information that you voluntarily provide when applying or
+          registering for an account with The Upside or making a purchase on The
+          Upside website; www.theupside.com (the Website).
         </p>
         <p>
           This Privacy Policy (Privacy Policy) outlines how your information is
           collected, used and disclosed when you access or use our Services as
           defined in our Terms. This information is collected, used and
-          disclosed in accordance with the Privacy Act 1988 (Cth) (Privacy Act).{' '}
+          disclosed in accordance with the Privacy Act 1988 (Cth) (Privacy
+          Act).{' '}
         </p>
         <p>
           This Privacy Policy is incorporated by reference into our Terms. Any
@@ -45,7 +46,8 @@ const Policy = (props) => {
           involvement of a parent or guardian. By accessing or using our
           Website, you warrant and represent to us that you are over the age of
           18 years and you have the right, authority and legal capacity to enter
-          into a legally binding agreement and to abide by this Privacy Policy.{' '}
+          into a legally binding agreement and to abide by this Privacy
+          Policy.{' '}
         </p>
         <p>
           The Upside collects, uses and discloses information regarding users

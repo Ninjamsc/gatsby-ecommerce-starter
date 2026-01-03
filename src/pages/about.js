@@ -28,7 +28,7 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.png'}
-          title={`Sydney \n A British brand since 1860`}
+          title={`Seliger.STUDIO \n A RUS brand since 1860`}
         />
 
         <div className={styles.navContainer}>
@@ -49,8 +49,9 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 1860, Sydney is an innovative British brand with a
-              contemporary edge. We make timeless everyday luxury clothing.
+              Founded in 1860, SELIGER.STUDIO is an innovative British brand
+              with a contemporary edge. We make timeless everyday luxury
+              clothing.
             </p>
             <br />
             <br />
@@ -119,7 +120,10 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt backwards'} src={toOptimizedImage('/about3.png')}></img>
+          <img
+            alt={'shirt backwards'}
+            src={toOptimizedImage('/about3.png')}
+          ></img>
         </div>
       </div>
     </Layout>

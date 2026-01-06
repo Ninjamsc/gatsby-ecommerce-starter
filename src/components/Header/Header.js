@@ -1,5 +1,5 @@
 import React, { useState, useEffect, createRef } from 'react';
-import { Link, navigate } from 'gatsby';
+import { Link, navigate, graphql, useStaticQuery } from 'gatsby';
 
 import { isAuth } from '../../helpers/general';
 
@@ -16,6 +16,20 @@ import MobileNavigation from '../MobileNavigation';
 import * as styles from './Header.module.css';
 
 const Header = (prop) => {
+  const { site } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+          author
+          description
+          siteUrl
+        }
+      }
+    }
+  `);
+  console.log('site >>', site || '');
+
   const [showMiniCart, setShowMiniCart] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
   const [showMenu, setShowMenu] = useState(true);
